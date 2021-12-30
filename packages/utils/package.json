@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/4-future/dan-repo/issues"
-  },
-  "gitHead": "561ca40a71ce0d9801f73af25485b20b942a6da8"
+  }
 }
