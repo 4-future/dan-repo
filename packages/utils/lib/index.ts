@@ -1,6 +1,6 @@
 
-import { log } from './log'
+import logUtils from './log/index'
 
 export default {
-  log
+  log: logUtils
 }

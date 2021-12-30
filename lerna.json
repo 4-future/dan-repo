@@ -1,6 +1,22 @@
 {
+  "npmClient": "yarn",
+  "npmClientArgs": ["--production", "--no-optional"],
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "allowBranch": ["master", "develop"],
+      "ignoreChanges": [
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md"
+      ],
+      "message": "chore(release): publish %s"
+    },
+    "bootstrap": {
+      "ignore": "component-*"
+    }
+  }
 }

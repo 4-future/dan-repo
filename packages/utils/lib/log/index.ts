@@ -1,8 +1,8 @@
 
-const log = (msg: string) => {
-  console.log('log:', msg)
-}
+import log from './log'
 
-export {
+const logUtils = {
   log
 }
+
+export default logUtils
